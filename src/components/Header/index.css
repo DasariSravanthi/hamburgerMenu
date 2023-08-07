@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.header-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.logo-img {
+  height: 40px;
+  width: 40px;
+}
+
+.trigger-button {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.hamburger-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.popup-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button-container {
+  align-self: flex-end;
+}
+
+.close-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.popup-content-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.icon-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 6px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.icon-name {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.popup-content {
+  width: 100%;
+  border: 0px;
+}

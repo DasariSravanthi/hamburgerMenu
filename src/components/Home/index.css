@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.content-background {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-sm-img {
+  height: 300px;
+}
+
+.home-lg-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home-sm-img {
+    display: none;
+  }
+
+  .home-lg-img {
+    display: block;
+    height: 500px;
+  }
+}
