@@ -11,11 +11,6 @@ import {IoMdClose} from 'react-icons/io'
 import {AiFillHome} from 'react-icons/ai'
 import {BsInfoCircleFill} from 'react-icons/bs'
 
-const overlayStyles = {
-  backgroundColor: '#ffffff',
-  border: '0px',
-}
-
 const Header = () => (
   <div className="header-background">
     <Link to="/">
@@ -38,7 +33,6 @@ const Header = () => (
           </button>
         }
         className="popup-content"
-        overlayStyle={overlayStyles}
       >
         {close => (
           <div className="popup-container">
